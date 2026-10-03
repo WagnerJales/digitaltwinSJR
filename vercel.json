@@ -1,0 +1,16 @@
+{
+  "buildCommand": "echo Building static site",
+  "outputDirectory": "deploy",
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
