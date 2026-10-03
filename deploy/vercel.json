@@ -1,4 +1,16 @@
 {
-  "buildCommand": "exit 0",
-  "outputDirectory": "."
+  "buildCommand": "echo Building static site",
+  "outputDirectory": ".",
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
 }
