@@ -1,0 +1,142 @@
+{
+ "especies": {
+  "1": "Domicilio particular",
+  "2": "Domicilio coletivo",
+  "3": "Estabelecimento agropecuario",
+  "4": "Estabelecimento de ensino",
+  "5": "Estabelecimento de saude",
+  "6": "Estabelecimento de outras finalidades",
+  "7": "Edificacao em construcao ou reforma",
+  "8": "Estabelecimento religioso"
+ },
+ "por_zona": {
+  "ZC": {
+   "total": 2419,
+   "esp_1": 1873,
+   "domicilios": 1876,
+   "esp_6": 477,
+   "esp_4": 8,
+   "esp_7": 42,
+   "esp_8": 13,
+   "esp_2": 3,
+   "esp_5": 3
+  },
+  "ZDU - A": {
+   "total": 15335,
+   "esp_1": 13623,
+   "domicilios": 13626,
+   "esp_7": 655,
+   "esp_6": 944,
+   "esp_8": 80,
+   "esp_4": 22,
+   "esp_5": 7,
+   "esp_2": 3,
+   "esp_3": 1
+  },
+  "ZDU - BV": {
+   "total": 348,
+   "esp_1": 300,
+   "domicilios": 300,
+   "esp_7": 15,
+   "esp_8": 9,
+   "esp_3": 2,
+   "esp_6": 21,
+   "esp_4": 1
+  },
+  "ZDU - P": {
+   "total": 2647,
+   "esp_1": 2271,
+   "domicilios": 2272,
+   "esp_7": 158,
+   "esp_6": 178,
+   "esp_8": 32,
+   "esp_4": 5,
+   "esp_5": 1,
+   "esp_3": 1,
+   "esp_2": 1
+  },
+  "ZEU": {
+   "total": 77683,
+   "esp_1": 67825,
+   "domicilios": 67836,
+   "esp_6": 6907,
+   "esp_7": 2104,
+   "esp_8": 586,
+   "esp_4": 197,
+   "esp_5": 48,
+   "esp_2": 11,
+   "esp_3": 5
+  },
+  "ZPA JENIPARANA": {
+   "total": 7030,
+   "esp_1": 6014,
+   "domicilios": 6014,
+   "esp_6": 616,
+   "esp_7": 289,
+   "esp_8": 81,
+   "esp_4": 17,
+   "esp_5": 3,
+   "esp_3": 10
+  },
+  "ZPA SAO PAULO": {
+   "total": 238,
+   "esp_1": 205,
+   "domicilios": 205,
+   "esp_6": 16,
+   "esp_7": 12,
+   "esp_8": 5
+  },
+  "ZRBJJ": {
+   "total": 1532,
+   "esp_1": 1288,
+   "domicilios": 1288,
+   "esp_6": 129,
+   "esp_7": 83,
+   "esp_8": 23,
+   "esp_5": 2,
+   "esp_4": 7
+  },
+  "ZRG": {
+   "total": 146,
+   "esp_6": 16,
+   "esp_1": 110,
+   "domicilios": 110,
+   "esp_8": 1,
+   "esp_7": 16,
+   "esp_5": 1,
+   "esp_4": 2
+  },
+  "ZRI": {
+   "total": 588,
+   "esp_1": 506,
+   "domicilios": 506,
+   "esp_4": 5,
+   "esp_6": 50,
+   "esp_8": 8,
+   "esp_7": 18,
+   "esp_3": 1
+  },
+  "ZRMS": {
+   "total": 2255,
+   "esp_1": 1834,
+   "domicilios": 1836,
+   "esp_6": 175,
+   "esp_7": 173,
+   "esp_3": 20,
+   "esp_8": 40,
+   "esp_4": 10,
+   "esp_5": 1,
+   "esp_2": 2
+  },
+  "ZS": {
+   "total": 7707,
+   "esp_6": 1324,
+   "esp_1": 6075,
+   "domicilios": 6075,
+   "esp_4": 35,
+   "esp_7": 203,
+   "esp_8": 61,
+   "esp_5": 9
+  }
+ }
+}

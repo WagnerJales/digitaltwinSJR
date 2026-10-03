@@ -1,0 +1,68 @@
+{
+ "recorte": {
+  "bbox": [
+   -44.095,
+   -2.595,
+   -44.015,
+   -2.515
+  ],
+  "exportadas": 18544,
+  "no_municipio": 110686,
+  "motivo": "O municipio inteiro passa de 110 mil predios; em GeoJSON o navegador nao aguenta. O mapa carrega o recorte do nucleo urbano e desenha o limite dele, para que a ausencia de predio fora da caixa nao seja lida como ausencia de edificacao.",
+  "completo": "pipeline/run_all.py --completo gera edificacoes_municipio.geojson para o tippecanoe (PMTiles)"
+ },
+ "por_zona": {
+  "PARQUE DA QUINTA": {
+   "edificacoes": 2,
+   "area_construida_m2": 49.2
+  },
+  "ZC": {
+   "edificacoes": 2441,
+   "area_construida_m2": 254851.6
+  },
+  "ZDU - A": {
+   "edificacoes": 15898,
+   "area_construida_m2": 1713120.8
+  },
+  "ZDU - BV": {
+   "edificacoes": 663,
+   "area_construida_m2": 59076.6
+  },
+  "ZDU - P": {
+   "edificacoes": 3843,
+   "area_construida_m2": 371306.5
+  },
+  "ZEU": {
+   "edificacoes": 68482,
+   "area_construida_m2": 7280270.3
+  },
+  "ZPA JENIPARANA": {
+   "edificacoes": 5232,
+   "area_construida_m2": 557627.1
+  },
+  "ZPA SAO PAULO": {
+   "edificacoes": 398,
+   "area_construida_m2": 30879.6
+  },
+  "ZRBJJ": {
+   "edificacoes": 2237,
+   "area_construida_m2": 219376.4
+  },
+  "ZRG": {
+   "edificacoes": 191,
+   "area_construida_m2": 15848.8
+  },
+  "ZRI": {
+   "edificacoes": 867,
+   "area_construida_m2": 90654.2
+  },
+  "ZRMS": {
+   "edificacoes": 2851,
+   "area_construida_m2": 230578.3
+  },
+  "ZS": {
+   "edificacoes": 7581,
+   "area_construida_m2": 697153.8
+  }
+ }
+}

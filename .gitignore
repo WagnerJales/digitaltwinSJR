@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Dados BRUTOS de terceiros — 854 MB. Nao versionar: sao baixaveis das fontes
+# originais (IBGE, Google Open Buildings, OSM) e o README diz de onde.
+# ---------------------------------------------------------------------------
+SIG/
+
+# ---------------------------------------------------------------------------
+# Tudo abaixo e GERADO pelo pipeline. Versionar seria guardar o bolo e a
+# receita: `python pipeline/run_all.py` reconstroi em ~2 min.
+# ---------------------------------------------------------------------------
+data/processados/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editores e sistema
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Rascunhos que ja escaparam para o repo uma vez
+web/_*.js
+tests/_*.js

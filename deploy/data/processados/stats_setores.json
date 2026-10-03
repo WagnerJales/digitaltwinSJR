@@ -1,0 +1,137 @@
+{
+ "fonte": "IBGE — Censo Demografico 2022, agregados por setor censitario",
+ "municipio": "2111201",
+ "setores": 609,
+ "sem_agregado": 0,
+ "fora_do_zoneamento": 0,
+ "totais": {
+  "pessoas": 244579.0,
+  "dom_particulares": 102279.0,
+  "dom_ocupados": 81090.0,
+  "dom_vagos": 14926.0,
+  "dom_uso_ocasional": 6263.0,
+  "area_km2": 180.36
+ },
+ "identidade_confere": true,
+ "variaveis": {
+  "pessoas": "Total de pessoas residentes",
+  "domicilios": "Total de domicilios",
+  "dom_particulares": "Domicilios particulares",
+  "dom_coletivos": "Domicilios coletivos",
+  "moradores_por_dom": "Media de moradores em domicilios particulares ocupados",
+  "pct_imputados": "Percentual de domicilios imputados",
+  "dom_ocupados": "Domicilios particulares ocupados",
+  "dom_uso_ocasional": "Domicilios particulares nao ocupados de uso ocasional",
+  "dom_vagos": "Domicilios particulares nao ocupados vagos"
+ },
+ "por_zona": {
+  "ZS": {
+   "setores": 37,
+   "pessoas": 17113.0,
+   "domicilios": 6045.0,
+   "area_m2": 3474817.0000000005,
+   "dens_hab_ha": 49.25,
+   "dens_dom_ha": 17.4,
+   "area_km2": 3.475
+  },
+  "ZC": {
+   "setores": 19,
+   "pessoas": 4965.0,
+   "domicilios": 1872.0,
+   "area_m2": 829568.4,
+   "dens_hab_ha": 59.85,
+   "dens_dom_ha": 22.57,
+   "area_km2": 0.83
+  },
+  "ZEU": {
+   "setores": 393,
+   "pessoas": 165463.0,
+   "domicilios": 68054.0,
+   "area_m2": 47898638.39999999,
+   "dens_hab_ha": 34.54,
+   "dens_dom_ha": 14.21,
+   "area_km2": 47.899
+  },
+  "ZDU - BV": {
+   "setores": 2,
+   "pessoas": 449.0,
+   "domicilios": 265.0,
+   "area_m2": 6223910.8,
+   "dens_hab_ha": 0.72,
+   "dens_dom_ha": 0.43,
+   "area_km2": 6.224
+  },
+  "ZDU - P": {
+   "setores": 15,
+   "pessoas": 3865.0,
+   "domicilios": 2339.0,
+   "area_m2": 21714958.5,
+   "dens_hab_ha": 1.78,
+   "dens_dom_ha": 1.08,
+   "area_km2": 21.715
+  },
+  "ZRI": {
+   "setores": 5,
+   "pessoas": 1144.0,
+   "domicilios": 500.0,
+   "area_m2": 5561875.1,
+   "dens_hab_ha": 2.06,
+   "dens_dom_ha": 0.9,
+   "area_km2": 5.562
+  },
+  "ZDU - A": {
+   "setores": 82,
+   "pessoas": 29217.0,
+   "domicilios": 13663.0,
+   "area_m2": 13446505.499999996,
+   "dens_hab_ha": 21.73,
+   "dens_dom_ha": 10.16,
+   "area_km2": 13.447
+  },
+  "ZRBJJ": {
+   "setores": 6,
+   "pessoas": 3418.0,
+   "domicilios": 1476.0,
+   "area_m2": 46782665.6,
+   "dens_hab_ha": 0.73,
+   "dens_dom_ha": 0.32,
+   "area_km2": 46.783
+  },
+  "ZRG": {
+   "setores": 1,
+   "pessoas": 0,
+   "domicilios": 0,
+   "area_m2": 6929776.3,
+   "dens_hab_ha": 0.0,
+   "dens_dom_ha": 0.0,
+   "area_km2": 6.93
+  },
+  "ZPA JENIPARANA": {
+   "setores": 39,
+   "pessoas": 15031.0,
+   "domicilios": 6222.0,
+   "area_m2": 17923135.299999993,
+   "dens_hab_ha": 8.39,
+   "dens_dom_ha": 3.47,
+   "area_km2": 17.923
+  },
+  "ZPA SAO PAULO": {
+   "setores": 1,
+   "pessoas": 237.0,
+   "domicilios": 127.0,
+   "area_m2": 888224.6,
+   "dens_hab_ha": 2.67,
+   "dens_dom_ha": 1.43,
+   "area_km2": 0.888
+  },
+  "ZRMS": {
+   "setores": 9,
+   "pessoas": 3677.0,
+   "domicilios": 1716.0,
+   "area_m2": 8684790.900000002,
+   "dens_hab_ha": 4.23,
+   "dens_dom_ha": 1.98,
+   "area_km2": 8.685
+  }
+ }
+}

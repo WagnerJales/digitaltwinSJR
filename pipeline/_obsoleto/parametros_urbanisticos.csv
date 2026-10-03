@@ -1,0 +1,7 @@
+sigla,nome,ca_basico,ca_maximo,taxa_ocupacao_pct,taxa_permeabilidade_pct,gabarito_max_m,recuo_frontal_m,recuo_lateral_m,usos_permitidos,observacoes
+ZC,Zona Central (DEMO),2.0,4.0,70,15,36,3,1.5,"Residencial multifamiliar; Comércio; Serviços","VALORES FICTÍCIOS — preencher com a Lei de Zoneamento 2025 de SJR"
+ZR1,Zona Residencial 1 (DEMO),1.0,1.5,60,20,9,3,1.5,"Residencial unifamiliar; Comércio local","VALORES FICTÍCIOS — preencher com a Lei de Zoneamento 2025 de SJR"
+ZR2,Zona Residencial 2 (DEMO),1.5,2.5,65,20,12,3,1.5,"Residencial uni/multifamiliar; Comércio; Serviços","VALORES FICTÍCIOS — preencher com a Lei de Zoneamento 2025 de SJR"
+ZEIS,Zona Especial de Interesse Social (DEMO),1.0,2.0,70,15,6,2,0,"Residencial de interesse social; Comércio local","VALORES FICTÍCIOS — preencher com a Lei de Zoneamento 2025 de SJR"
+ZI,Zona de Interesse Industrial (DEMO),1.0,1.5,60,20,12,5,3,"Indústria leve; Logística; Serviços","VALORES FICTÍCIOS — preencher com a Lei de Zoneamento 2025 de SJR"
+ZPA,Zona de Proteção Ambiental (DEMO),0.1,0.1,5,90,4.5,10,5,"Preservação; Uso científico/recreativo restrito","VALORES FICTÍCIOS — preencher com a Lei de Zoneamento 2025 de SJR"

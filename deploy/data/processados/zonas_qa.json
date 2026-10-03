@@ -1,0 +1,207 @@
+{
+ "fonte": "LC_77_AUTOGRAFO.pdf",
+ "zonas": [
+  {
+   "sigla": "ZRBJJ",
+   "vertices": 286,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 38327327.9,
+   "area_wgs84_m2": 38348228.7,
+   "divergencia_pct": 0.0545,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZRMS",
+   "vertices": 415,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 6957004.7,
+   "area_wgs84_m2": 6960933.6,
+   "divergencia_pct": 0.0565,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZRI",
+   "vertices": 322,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 5424647.6,
+   "area_wgs84_m2": 5427354.5,
+   "divergencia_pct": 0.0499,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZRG",
+   "vertices": 104,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 10402178.9,
+   "area_wgs84_m2": 10408027.6,
+   "divergencia_pct": 0.0562,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZC",
+   "vertices": 74,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 884431.9,
+   "area_wgs84_m2": 884878.2,
+   "divergencia_pct": 0.0505,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZS",
+   "vertices": 199,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 3607794.1,
+   "area_wgs84_m2": 3609626.0,
+   "divergencia_pct": 0.0508,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZDU - A",
+   "vertices": 275,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 13516127.8,
+   "area_wgs84_m2": 13523935.3,
+   "divergencia_pct": 0.0578,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZDU - BV",
+   "vertices": 117,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 9204497.0,
+   "area_wgs84_m2": 9209382.6,
+   "divergencia_pct": 0.0531,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZDU - P",
+   "vertices": 386,
+   "aneis": 1,
+   "vertices_degenerados": 16,
+   "area_utm_m2": 20160368.9,
+   "area_wgs84_m2": 20170365.1,
+   "divergencia_pct": 0.0496,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "ZEU",
+   "vertices": 868,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 43383054.3,
+   "area_wgs84_m2": 43407027.7,
+   "divergencia_pct": 0.0553,
+   "na_tabela7": true
+  },
+  {
+   "sigla": "PARQUE DA QUINTA",
+   "vertices": 24,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 347444.4,
+   "area_wgs84_m2": 347634.6,
+   "divergencia_pct": 0.0548,
+   "na_tabela7": false
+  },
+  {
+   "sigla": "ZPA SAO PAULO",
+   "vertices": 147,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 6853704.4,
+   "area_wgs84_m2": 6857508.3,
+   "divergencia_pct": 0.0555,
+   "na_tabela7": false
+  },
+  {
+   "sigla": "ZPA JENIPARANA",
+   "vertices": 200,
+   "aneis": 1,
+   "vertices_degenerados": 0,
+   "area_utm_m2": 19755740.1,
+   "area_wgs84_m2": 19766578.3,
+   "divergencia_pct": 0.0549,
+   "na_tabela7": false
+  }
+ ],
+ "tabela7_lida": {
+  "ZS": {
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 240.0,
+   "alml_pct": 30.0,
+   "altura_max_m": 30.0
+  },
+  "ZDU - A": {
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 370.0,
+   "alml_pct": 40.0,
+   "altura_max_m": 90.0
+  },
+  "ZDU - BV": {
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 370.0,
+   "alml_pct": 40.0,
+   "altura_max_m": 90.0
+  },
+  "ZDU - P": {
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 370.0,
+   "alml_pct": 40.0,
+   "altura_max_m": 90.0
+  },
+  "ZEU": {
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 360.0,
+   "alml_pct": 30.0,
+   "altura_max_m": 60.0
+  },
+  "ZC": {
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 240.0,
+   "alml_pct": 30.0,
+   "altura_max_m": 15.0
+  },
+  "ZRMS": {
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 360.0,
+   "alml_pct": 30.0,
+   "altura_max_m": 60.0
+  },
+  "ZRI": {
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 180.0,
+   "alml_pct": 40.0,
+   "altura_max_m": 60.0
+  },
+  "ZRBJJ": {
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 180.0,
+   "alml_pct": 40.0,
+   "altura_max_m": 60.0
+  },
+  "ZRG": {
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 180.0,
+   "alml_pct": 40.0,
+   "altura_max_m": 60.0
+  }
+ }
+}

@@ -1,0 +1,958 @@
+{
+ "lei": {
+  "norma": "Lei Complementar nº 77, de 10 de julho de 2025",
+  "ementa": "Dispõe sobre o zoneamento, parcelamento, uso e ocupação do solo urbano de São José de Ribamar e dá outras providências.",
+  "fonte": "Autógrafo da Câmara Municipal de São José de Ribamar (271 p.)",
+  "publicacao": "Diário Oficial do Município nº 2.035/2025, de 15/07/2025",
+  "plano_diretor": "Lei Complementar nº 57, de 08 de outubro de 2020"
+ },
+ "zonas": {
+  "ZS": {
+   "sigla": "ZS",
+   "nome": "Zona da Sede",
+   "tipo": "urbana",
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 240,
+   "coef_aproveitamento": 2.4,
+   "alml_pct": 30,
+   "taxa_ocupacao_max_pct": 70,
+   "altura_max_m": 30,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZC": {
+   "sigla": "ZC",
+   "nome": "Zona Central",
+   "tipo": "urbana",
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 240,
+   "coef_aproveitamento": 2.4,
+   "alml_pct": 30,
+   "taxa_ocupacao_max_pct": 70,
+   "altura_max_m": 15,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZEU": {
+   "sigla": "ZEU",
+   "nome": "Zona de Expansão Urbana",
+   "tipo": "urbana",
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 360,
+   "coef_aproveitamento": 3.6,
+   "alml_pct": 30,
+   "taxa_ocupacao_max_pct": 70,
+   "altura_max_m": 60,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZDU - A": {
+   "sigla": "ZDU - A",
+   "nome": "Zona de Desenvolvimento Urbano - Araçagi",
+   "tipo": "urbana",
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 370,
+   "coef_aproveitamento": 3.7,
+   "alml_pct": 40,
+   "taxa_ocupacao_max_pct": 60,
+   "altura_max_m": 90,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZDU - BV": {
+   "sigla": "ZDU - BV",
+   "nome": "Zona de Desenvolvimento Urbano - Boa Viagem",
+   "tipo": "urbana",
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 370,
+   "coef_aproveitamento": 3.7,
+   "alml_pct": 40,
+   "taxa_ocupacao_max_pct": 60,
+   "altura_max_m": 90,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZDU - P": {
+   "sigla": "ZDU - P",
+   "nome": "Zona de Desenvolvimento Urbano - Panaquatira",
+   "tipo": "urbana",
+   "area_min_m2": 150.0,
+   "testada_min_m": 7.5,
+   "atme_pct": 370,
+   "coef_aproveitamento": 3.7,
+   "alml_pct": 40,
+   "taxa_ocupacao_max_pct": 60,
+   "altura_max_m": 90,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZRMS": {
+   "sigla": "ZRMS",
+   "nome": "Zona Rural Mata/Santana",
+   "tipo": "rural",
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 360,
+   "coef_aproveitamento": 3.6,
+   "alml_pct": 30,
+   "taxa_ocupacao_max_pct": 70,
+   "altura_max_m": 60,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZRI": {
+   "sigla": "ZRI",
+   "nome": "Zona Rural Itaparí",
+   "tipo": "rural",
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 180,
+   "coef_aproveitamento": 1.8,
+   "alml_pct": 40,
+   "taxa_ocupacao_max_pct": 60,
+   "altura_max_m": 60,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZRBJJ": {
+   "sigla": "ZRBJJ",
+   "nome": "Zona Rural Bom Jardim/Juçatuba",
+   "tipo": "rural",
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 180,
+   "coef_aproveitamento": 1.8,
+   "alml_pct": 40,
+   "taxa_ocupacao_max_pct": 60,
+   "altura_max_m": 60,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  },
+  "ZRG": {
+   "sigla": "ZRG",
+   "nome": "Zona Rural Guarapiranga",
+   "tipo": "rural",
+   "area_min_m2": 200.0,
+   "testada_min_m": 10.0,
+   "atme_pct": 180,
+   "coef_aproveitamento": 1.8,
+   "alml_pct": 40,
+   "taxa_ocupacao_max_pct": 60,
+   "altura_max_m": 60,
+   "fonte": "Anexo III, Tabela 7 (autógrafo p. 267)"
+  }
+ },
+ "zonas_sem_parametro": {
+  "ZPA SAO PAULO": "Zona de Proteção Ambiental São Paulo",
+  "ZPA JENIPARANA": "Zona de Proteção Ambiental Jeniparana",
+  "PARQUE DA QUINTA": "Parque da Quinta"
+ },
+ "afastamentos_por_gabarito": [
+  {
+   "gabarito_min": 1,
+   "gabarito_max": 1,
+   "frontal_m": 5.0,
+   "lateral_m_min": 1.5,
+   "lateral_m_max": 1.5,
+   "fundos_m_min": 1.5,
+   "fundos_m_max": 1.5,
+   "tabelado": true,
+   "fonte": "Anexo III, Tabela 8"
+  },
+  {
+   "gabarito_min": 2,
+   "gabarito_max": 2,
+   "frontal_m": 5.0,
+   "lateral_m_min": 2.0,
+   "lateral_m_max": 2.0,
+   "fundos_m_min": 1.5,
+   "fundos_m_max": 1.5,
+   "tabelado": true,
+   "fonte": "Anexo III, Tabela 8"
+  },
+  {
+   "gabarito_min": 3,
+   "gabarito_max": 5,
+   "frontal_m": 5.0,
+   "lateral_m_min": 3.0,
+   "lateral_m_max": 3.0,
+   "fundos_m_min": 3.0,
+   "fundos_m_max": 3.0,
+   "tabelado": true,
+   "fonte": "Anexo III, Tabela 8"
+  },
+  {
+   "gabarito_min": 6,
+   "gabarito_max": 10,
+   "frontal_m": 6.0,
+   "lateral_m_min": 3.65,
+   "lateral_m_max": 6.25,
+   "fundos_m_min": 3.65,
+   "fundos_m_max": 6.25,
+   "tabelado": false,
+   "fonte": "Tabela 8 (frontal) + art. 111, II"
+  },
+  {
+   "gabarito_min": 11,
+   "gabarito_max": 20,
+   "frontal_m": 8.0,
+   "lateral_m_min": 6.3,
+   "lateral_m_max": 11.25,
+   "fundos_m_min": 6.3,
+   "fundos_m_max": 11.25,
+   "tabelado": false,
+   "fonte": "Tabela 8 (frontal) + art. 111, III"
+  },
+  {
+   "gabarito_min": 21,
+   "gabarito_max": 30,
+   "frontal_m": 10.0,
+   "lateral_m_min": 10.2,
+   "lateral_m_max": 14.25,
+   "fundos_m_min": 10.2,
+   "fundos_m_max": 14.25,
+   "tabelado": false,
+   "fonte": "Tabela 8 (frontal) + art. 111, IV"
+  }
+ ],
+ "afastamentos_por_pavimento": {
+  "1": {
+   "frontal_m": 5.0,
+   "lateral_m": 1.5,
+   "fundos_m": 1.5,
+   "faixa": "1",
+   "fonte": "Anexo III, Tabela 8"
+  },
+  "2": {
+   "frontal_m": 5.0,
+   "lateral_m": 2.0,
+   "fundos_m": 1.5,
+   "faixa": "2",
+   "fonte": "Anexo III, Tabela 8"
+  },
+  "3": {
+   "frontal_m": 5.0,
+   "lateral_m": 3.0,
+   "fundos_m": 3.0,
+   "faixa": "3 a 5",
+   "fonte": "Anexo III, Tabela 8"
+  },
+  "4": {
+   "frontal_m": 5.0,
+   "lateral_m": 3.0,
+   "fundos_m": 3.0,
+   "faixa": "3 a 5",
+   "fonte": "Anexo III, Tabela 8"
+  },
+  "5": {
+   "frontal_m": 5.0,
+   "lateral_m": 3.0,
+   "fundos_m": 3.0,
+   "faixa": "3 a 5",
+   "fonte": "Anexo III, Tabela 8"
+  },
+  "6": {
+   "frontal_m": 6.0,
+   "lateral_m": 3.65,
+   "fundos_m": 3.65,
+   "faixa": "6 a 10",
+   "fonte": "Tabela 8 (frontal) + art. 111, II",
+   "calculo": "3 m + (6 - 5) x 0.65 m",
+   "acrescimo_m_por_pav": 0.65
+  },
+  "7": {
+   "frontal_m": 6.0,
+   "lateral_m": 4.3,
+   "fundos_m": 4.3,
+   "faixa": "6 a 10",
+   "fonte": "Tabela 8 (frontal) + art. 111, II",
+   "calculo": "3 m + (7 - 5) x 0.65 m",
+   "acrescimo_m_por_pav": 0.65
+  },
+  "8": {
+   "frontal_m": 6.0,
+   "lateral_m": 4.95,
+   "fundos_m": 4.95,
+   "faixa": "6 a 10",
+   "fonte": "Tabela 8 (frontal) + art. 111, II",
+   "calculo": "3 m + (8 - 5) x 0.65 m",
+   "acrescimo_m_por_pav": 0.65
+  },
+  "9": {
+   "frontal_m": 6.0,
+   "lateral_m": 5.6,
+   "fundos_m": 5.6,
+   "faixa": "6 a 10",
+   "fonte": "Tabela 8 (frontal) + art. 111, II",
+   "calculo": "3 m + (9 - 5) x 0.65 m",
+   "acrescimo_m_por_pav": 0.65
+  },
+  "10": {
+   "frontal_m": 6.0,
+   "lateral_m": 6.25,
+   "fundos_m": 6.25,
+   "faixa": "6 a 10",
+   "fonte": "Tabela 8 (frontal) + art. 111, II",
+   "calculo": "3 m + (10 - 5) x 0.65 m",
+   "acrescimo_m_por_pav": 0.65
+  },
+  "11": {
+   "frontal_m": 8.0,
+   "lateral_m": 6.3,
+   "fundos_m": 6.3,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (11 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "12": {
+   "frontal_m": 8.0,
+   "lateral_m": 6.85,
+   "fundos_m": 6.85,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (12 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "13": {
+   "frontal_m": 8.0,
+   "lateral_m": 7.4,
+   "fundos_m": 7.4,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (13 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "14": {
+   "frontal_m": 8.0,
+   "lateral_m": 7.95,
+   "fundos_m": 7.95,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (14 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "15": {
+   "frontal_m": 8.0,
+   "lateral_m": 8.5,
+   "fundos_m": 8.5,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (15 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "16": {
+   "frontal_m": 8.0,
+   "lateral_m": 9.05,
+   "fundos_m": 9.05,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (16 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "17": {
+   "frontal_m": 8.0,
+   "lateral_m": 9.6,
+   "fundos_m": 9.6,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (17 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "18": {
+   "frontal_m": 8.0,
+   "lateral_m": 10.15,
+   "fundos_m": 10.15,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (18 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "19": {
+   "frontal_m": 8.0,
+   "lateral_m": 10.7,
+   "fundos_m": 10.7,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (19 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "20": {
+   "frontal_m": 8.0,
+   "lateral_m": 11.25,
+   "fundos_m": 11.25,
+   "faixa": "11 a 20",
+   "fonte": "Tabela 8 (frontal) + art. 111, III",
+   "calculo": "3 m + (20 - 5) x 0.55 m",
+   "acrescimo_m_por_pav": 0.55
+  },
+  "21": {
+   "frontal_m": 10.0,
+   "lateral_m": 10.2,
+   "fundos_m": 10.2,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (21 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "22": {
+   "frontal_m": 10.0,
+   "lateral_m": 10.65,
+   "fundos_m": 10.65,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (22 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "23": {
+   "frontal_m": 10.0,
+   "lateral_m": 11.1,
+   "fundos_m": 11.1,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (23 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "24": {
+   "frontal_m": 10.0,
+   "lateral_m": 11.55,
+   "fundos_m": 11.55,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (24 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "25": {
+   "frontal_m": 10.0,
+   "lateral_m": 12.0,
+   "fundos_m": 12.0,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (25 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "26": {
+   "frontal_m": 10.0,
+   "lateral_m": 12.45,
+   "fundos_m": 12.45,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (26 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "27": {
+   "frontal_m": 10.0,
+   "lateral_m": 12.9,
+   "fundos_m": 12.9,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (27 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "28": {
+   "frontal_m": 10.0,
+   "lateral_m": 13.35,
+   "fundos_m": 13.35,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (28 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "29": {
+   "frontal_m": 10.0,
+   "lateral_m": 13.8,
+   "fundos_m": 13.8,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (29 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  },
+  "30": {
+   "frontal_m": 10.0,
+   "lateral_m": 14.25,
+   "fundos_m": 14.25,
+   "faixa": "21 a 30",
+   "fonte": "Tabela 8 (frontal) + art. 111, IV",
+   "calculo": "3 m + (30 - 5) x 0.45 m",
+   "acrescimo_m_por_pav": 0.45
+  }
+ },
+ "afastamentos_fonte": "Anexo III, Tabela 8 (autógrafo p. 268) e art. 111, incisos II a IV",
+ "afastamentos_ressalvas": [
+  {
+   "assunto": "base do afastamento lateral/fundos acima de 5 pavimentos",
+   "texto": "A Tabela 8 grafa '*' em lateral e fundos a partir do 6º pavimento e remete aos incisos II a IV do art. 111, que mandam acrescer 0,65 / 0,55 / 0,45 m por pavimento 'ao afastamento estabelecido no Anexo 8'. O último valor tabelado para lateral e fundos é 3,00 m (gabarito 3 a 5), e é essa a base adotada aqui. O frontal é lido direto da tabela (6, 8 ou 10 m), sem acréscimo, porque a nota '*' só marca as células de lateral e fundos.",
+   "efeito": "Confirmar com a SEMREC antes de uso para aprovação."
+  },
+  {
+   "assunto": "descontinuidade no 21º pavimento",
+   "texto": "Pelo art. 111, o afastamento lateral cresce até 11,25 m no 20º pavimento (3,00 + 15 x 0,55) e cai para 10,20 m no 21º (3,00 + 16 x 0,45), porque o acréscimo por pavimento diminui. A regra está aplicada como escrita.",
+   "efeito": "Um prédio de 21 pavimentos exige menos afastamento que um de 20."
+  },
+  {
+   "assunto": "gabarito acima de 30 pavimentos",
+   "texto": "A Tabela 8 e o art. 111 param no 30º pavimento. Acima disso a lei não define afastamento.",
+   "efeito": "Nas ZDU (90 m de altura máxima) o gabarito para em 30 pavimentos por falta de parâmetro, não por vedação."
+  }
+ ],
+ "gabarito_max_parametrizado": 30,
+ "regras": {
+  "taxa_permeabilidade_pct": {
+   "valor": 20,
+   "artigo": "Art. 98",
+   "texto": "A Taxa de Permeabilidade deverá ser de 20% (vinte por cento) da área do terreno, em todas as zonas."
+  },
+  "alml_permeavel_pct": {
+   "valor": 50,
+   "artigo": "Art. 106, parágrafo único",
+   "texto": "É obrigatório que pelo menos 50% da ALML do lote seja de área 100% permeável."
+  },
+  "pe_direito_min_m": {
+   "valor": 2.6,
+   "artigo": "Art. 109",
+   "texto": "O pé-direito mínimo permitido é de 2,60m, admitindo-se 2,30m nos banheiros e circulações."
+  },
+  "pavimentos_livres": {
+   "valor": true,
+   "artigo": "Art. 114",
+   "texto": "O número de pavimentos de uma edificação é livre desde que não ultrapasse a altura máxima permitida pela zona."
+  },
+  "afastamento_frontal_por_testada": {
+   "valor": true,
+   "artigo": "Art. 112",
+   "texto": "Nos lotes que possuam mais de um limite voltado, com ou sem acesso, à via pública possuirão tantos quantos forem os afastamentos frontais."
+  },
+  "frente_pelo_acesso": {
+   "valor": true,
+   "artigo": "Art. 108",
+   "texto": "O lote que possuir 2 ou mais limites voltados para diferentes vias, o acesso principal do lote determinará a sua frente."
+  },
+  "altura_pela_maior_testada": {
+   "valor": true,
+   "artigo": "Art. 107, I",
+   "texto": "Quando um imóvel fizer frente para duas ou mais vias, a altura máxima será medida a partir do passeio correspondente à testada de maior dimensão."
+  },
+  "lateral_ocupavel_ate_9m": {
+   "valor": 9.0,
+   "artigo": "Art. 115",
+   "texto": "A edificação poderá ocupar um dos afastamentos laterais desde que não haja aberturas voltadas para os lotes vizinhos e não ultrapasse 9,00m de altura."
+  },
+  "podio_5_pav_uso_comum": {
+   "valor": 5,
+   "artigo": "Art. 111, § 2º",
+   "texto": "Nas edificações acima de 5 pavimentos, serão admitidos afastamentos diferenciados quando os 5 primeiros pavimentos sejam de uso comum da edificação, seguindo a Tabela 8."
+  },
+  "reducao_lateral_50pct": {
+   "valor": 50,
+   "artigo": "Art. 116",
+   "texto": "Os afastamentos laterais obrigatórios poderão sofrer redução de até 50%, numa extensão máxima de 1/3 da profundidade do lote, desde que ocupados por escadas, elevadores, rampas, lixeiras e circulações comunitárias."
+  },
+  "subsolo_afastamento_frontal_m": {
+   "valor": 5.0,
+   "artigo": "Art. 118",
+   "texto": "Será permitida a construção de subsolos, respeitada a taxa de permeabilidade e o afastamento mínimo frontal de 5,00m."
+  },
+  "elevador_acima_5_pav": {
+   "valor": 5,
+   "artigo": "Art. 110",
+   "texto": "Edificações com mais de 5 pavimentos ou 12,00m de desnível exigem no mínimo 1 elevador; acima de 10 pavimentos, 2."
+  },
+  "rural_afastamento_vizinho_m": {
+   "valor": 3.0,
+   "artigo": "Art. 113",
+   "texto": "Nas zonas rurais, não será permitido edificações a menos de 3,00m do terreno vizinho."
+  },
+  "terreo_alto_conta_gabarito_m": {
+   "valor": 3.0,
+   "artigo": "Art. 111, § 1º",
+   "texto": "Na hipótese de uma edificação térrea possuir o pavimento superior a 6,00m, será considerada a cada 3,00m um gabarito, para cálculo dos afastamentos."
+  },
+  "zona_de_maior_insercao": {
+   "valor": true,
+   "artigo": "Art. 81 e Art. 83",
+   "texto": "A ocupação de lote situado em duas ou mais Zonas observará as exigências definidas para a Zona de maior percentagem de inserção na sua área."
+  }
+ },
+ "exclusoes_atme": [
+  {
+   "artigo": "Art. 100",
+   "chave": "cobertura",
+   "modelavel": true,
+   "texto": "Nas edificações que possuam unidades habitacionais ou comerciais no pavimento de cobertura, não serão estes computados na ATME.",
+   "condicoes": [
+    "não ultrapassar a altura máxima da zona",
+    "área construída de até 50% da laje"
+   ],
+   "fracao_laje": 0.5
+  },
+  {
+   "artigo": "Art. 101",
+   "chave": "garagem",
+   "modelavel": true,
+   "texto": "Os pavimentos destinados ao uso exclusivo de garagem não serão computados como ATME.",
+   "condicoes": [
+    "não ultrapassar a altura máxima permitida pela zona"
+   ]
+  },
+  {
+   "artigo": "Art. 105",
+   "chave": "pilotis",
+   "modelavel": true,
+   "texto": "Os pilotis não serão computados na ATME, mas computarão na altura máxima da edificação.",
+   "condicoes": [
+    "computa na altura máxima da edificação"
+   ]
+  },
+  {
+   "artigo": "Art. 102",
+   "chave": "circulacao",
+   "modelavel": false,
+   "texto": "As áreas de circulação vertical e horizontal (escadas, rampas e elevadores) não serão computadas na ATME.",
+   "condicoes": []
+  },
+  {
+   "artigo": "Art. 103",
+   "chave": "uso_comum",
+   "modelavel": false,
+   "texto": "As áreas de uso comum (recepções, salão de festas, piscina, guarita, entre outros) não serão computadas na ATME.",
+   "condicoes": []
+  },
+  {
+   "artigo": "Art. 104",
+   "chave": "elementos",
+   "modelavel": false,
+   "texto": "Pergolados, jardineiras, jardim de inverno, beirais, shafts e dutos de ventilação e/ou iluminação não serão computados na ATME.",
+   "condicoes": []
+  }
+ ],
+ "instrumentos_ausentes": {
+  "solo_criado": "Não há 'solo criado' na LC 77/2025: zero ocorrências no texto. A lei não separa coeficiente básico de coeficiente máximo — a ATME é teto único por zona.",
+  "outorga_onerosa": "Não há outorga onerosa do direito de construir: zero ocorrências de 'outorga' e de 'onerosa'.",
+  "transferencia": "Não há transferência do direito de construir.",
+  "consequencia": "A ATME não é comprável nem transferível. A área construída só supera a ATME pelas exclusões dos arts. 100 a 105, que dependem do USO do pavimento, não de contrapartida. Instrumentos de flexibilização, se existirem, estarão no Plano Diretor (LC 57/2020), que não integra esta base."
+ },
+ "empena_cega": {
+  "artigo": "Art. 115",
+  "altura_max_m": 9.0,
+  "texto": "A edificação poderá ocupar um dos afastamentos laterais desde que não haja aberturas e/ou ventilação de qualquer natureza voltadas para os lotes vizinhos, desde que não ultrapasse 9,00m (nove metros) de altura.",
+  "condicoes": [
+   "apenas UM dos afastamentos laterais",
+   "fachada sem aberturas nem ventilação para o vizinho",
+   "a ocupação vai até 9,00 m; acima disso o afastamento volta"
+  ],
+  "ressalva": "Nas zonas rurais o art. 113 proíbe edificar a menos de 3,00 m do terreno vizinho, o que afasta a empena cega."
+ },
+ "alteracao_indices": {
+  "regularizacao_fundiaria": {
+   "artigo": "Art. 117",
+   "rotulo": "Reforma em lote de Regularização Fundiária",
+   "texto": "Para reformas em lotes oriundos de Regularização Fundiária ficam dispensados o atendimento aos índices urbanísticos, com exceção da taxa de permeabilidade e altura máxima da edificação.",
+   "atinge_alml": true,
+   "dispensa": [
+    "ALML (taxa de ocupação)",
+    "ATME",
+    "área mínima do lote",
+    "testada mínima"
+   ],
+   "mantem": [
+    "taxa de permeabilidade de 20% (Art. 98)",
+    "altura máxima da zona (Tabela 7)"
+   ],
+   "condicoes": [
+    "vale só para REFORMA, não para construção nova",
+    "o lote tem de ser oriundo de Regularização Fundiária"
+   ],
+   "ambiguidade": "A lei não define o que são 'índices urbanísticos'. O art. 97 arrola entre os parâmetros urbanos de ocupação também os AFASTAMENTOS. O app mantém os afastamentos aplicados — leitura conservadora — e dispensa apenas ALML, ATME e as dimensões mínimas do lote. A extensão da dispensa é decisão da SEMREC."
+  },
+  "interesse_social": {
+   "artigo": "Art. 147",
+   "rotulo": "Empreendimento de Interesse Social",
+   "texto": "A implantação de Empreendimentos de Interesse Social observará os parâmetros urbanos de ocupação específicos, independente da Zona na qual esteja inserido, conforme dispostos no Anexo III – Tabela de Parcelamento do Solo.",
+   "atinge_alml": false,
+   "altera": {
+    "area_min_m2": 125.0,
+    "testada_min_m": 5.0
+   },
+   "nao_altera": [
+    "ALML (taxa de ocupação)",
+    "ATME",
+    "altura máxima",
+    "afastamentos"
+   ],
+   "erro_de_remissao": "O art. 147 remete ao 'Anexo III – Tabela 8 – Tabela de Parcelamento do Solo'. A Tabela 8 é a de Afastamentos; a Tabela de Parcelamento do Solo é a Tabela 2 (p. 200). Adotamos a Tabela 2, que é a que tem o nome citado — mas a remissão está errada no texto sancionado e convém confirmar com a SEMREC.",
+   "observacao": "A Tabela 2 fixa apenas área e testada mínimas do lote (125,00 m² e 5,00 m na coluna Residencial de Interesse Social). Ela NÃO traz ALML nem ATME: apesar de o art. 147 falar em 'parâmetros urbanos de ocupação', a tabela para a qual ele remete é de parcelamento. Logo o Interesse Social não altera a ALML da zona."
+  }
+ },
+ "parcelamento": {
+  "tabela_2": {
+   "residencial": {
+    "rotulo": "Loteamento residencial",
+    "artigo_classe": "Art. 30, I",
+    "portes": [
+     [
+      "Ate 1 ha ou 35 unidades",
+      1.0,
+      35,
+      8.0,
+      null
+     ],
+     [
+      "Ate 3 ha ou 60 unidades",
+      3.0,
+      60,
+      8.0,
+      3.0
+     ],
+     [
+      "Ate 5 ha ou 90 unidades",
+      5.0,
+      90,
+      8.0,
+      5.0
+     ],
+     [
+      "Acima de 5 ha ou 90 unidades",
+      null,
+      null,
+      8.0,
+      8.0
+     ]
+    ],
+    "quadra_area_max_m2": 62500.0,
+    "quadra_testada_max_m": 250.0,
+    "lote_area_min_m2": 150.0,
+    "lote_testada_min_m": 7.5
+   },
+   "interesse_social": {
+    "rotulo": "Loteamento residencial de interesse social",
+    "artigo_classe": "Art. 30, II",
+    "verde_pct": 5.0,
+    "institucional_pct": 5.0,
+    "quadra_area_max_m2": 62500.0,
+    "quadra_testada_max_m": 250.0,
+    "lote_area_min_m2": 125.0,
+    "lote_testada_min_m": 5.0,
+    "dispensa_dimensoes": "Art. 35, IV — os parcelamentos destinados a Empreendimentos Habitacionais de Interesse Social nao estao sujeitos as dimensoes do caput do art. 35."
+   },
+   "industrial": {
+    "rotulo": "Loteamento industrial",
+    "artigo_classe": "Art. 30, III",
+    "verde_pct": 5.0,
+    "institucional_pct": 5.0,
+    "quadra_area_max_m2": 90000.0,
+    "quadra_testada_max_m": 300.0,
+    "lote_area_min_m2": 1000.0,
+    "lote_testada_min_m": 20.0,
+    "ressalva": "Art. 35, V — a localizacao de parcelamentos industriais depende de parecer autorizativo da SEMMAM."
+   }
+  },
+  "vias": [
+   {
+    "via": "estrutural",
+    "rotulo": "Via Estrutural",
+    "leito_m": 12.0,
+    "calcada_m": 3.5,
+    "artigo": "Art. 183, I / Art. 184, I",
+    "faixa_total_m": 19.0
+   },
+   {
+    "via": "coletora",
+    "rotulo": "Via Coletora",
+    "leito_m": 10.0,
+    "calcada_m": 2.5,
+    "artigo": "Art. 183, II / Art. 184, II",
+    "faixa_total_m": 15.0
+   },
+   {
+    "via": "local",
+    "rotulo": "Via Local",
+    "leito_m": 7.0,
+    "calcada_m": 1.9,
+    "artigo": "Art. 183, III / Art. 184, III",
+    "faixa_total_m": 10.8
+   }
+  ],
+  "regras": {
+   "quadra_max": {
+    "artigo": "Art. 39, I e II",
+    "aferivel": true,
+    "valor": 250.0,
+    "texto": "O comprimento das quadras nao podera ser superior a 250m e a largura das quadras nao podera ultrapassar 250m."
+   },
+   "quadra_vias_no_perimetro": {
+    "artigo": "Art. 39, III",
+    "aferivel": true,
+    "texto": "As quadras devem possuir vias ao longo de todo o seu perimetro."
+   },
+   "lote_esquina": {
+    "artigo": "Art. 35, I",
+    "aferivel": true,
+    "valor": 10.0,
+    "texto": "Nos lotes de esquina de quadras, a menor testada devera observar a dimensao minima de 10,00m, exceto para Empreendimentos Habitacionais de Interesse Social."
+   },
+   "gleba_inteira": {
+    "artigo": "Art. 21",
+    "aferivel": false,
+    "texto": "O parcelamento do solo de uma gleba so sera permitido quando abranger a totalidade da gleba titulada."
+   },
+   "zpa_fora_da_doacao": {
+    "artigo": "Art. 21, I e II",
+    "aferivel": true,
+    "texto": "Quando na gleba incidir ZPA ou APP, esta devera ser excluida dos percentuais de doacao da Tabela 2. A area de APP podera compor o percentual de area verde."
+   },
+   "lote_nao_limita_com_zpa": {
+    "artigo": "Art. 23",
+    "aferivel": true,
+    "texto": "Nao sao permitidos lotes limitados por rios, riachos, ZPA, Unidades de Conservacao e APPs — apenas areas publicas, verdes, pracas, parques, circulacao, ciclovias e passeios podem fazer limite com elas, garantindo o livre acesso."
+   },
+   "zona_de_maior_insercao": {
+    "artigo": "Art. 22",
+    "aferivel": true,
+    "texto": "Na gleba que pertenca a duas ou mais Zonas, aplicam-se os parametros da Zona na qual estiver inserida a maior porcentagem da gleba."
+   },
+   "integracao_viaria": {
+    "artigo": "Art. 13",
+    "aferivel": true,
+    "texto": "Todo parcelamento deve ser integrado a estrutura urbana existente, mediante conexao do sistema viario e das redes de servicos publicos."
+   },
+   "declividade": {
+    "artigo": "Art. 17, V e VI",
+    "aferivel": false,
+    "texto": "Vedado o parcelamento em terrenos com declividade igual ou superior a 30%, salvo exigencias da SEMOSP/SEMMAM, e em declividade igual ou superior a 45 graus."
+   },
+   "terreno_alagadico": {
+    "artigo": "Art. 17, I a IV",
+    "aferivel": false,
+    "texto": "Vedado em terrenos alagadicos ou sujeitos a inundacao, aterrados com residuos, com condicoes geologicas desaconselhaveis ou com poluicao."
+   },
+   "verde_perimetro_unico": {
+    "artigo": "Art. 36, V",
+    "aferivel": true,
+    "valor": 2500.0,
+    "texto": "A Area Verde deve estar contida em um so perimetro, podendo ser dividida somente quando cada parcela resultante possuir area minima de 2.500,00m2."
+   },
+   "verde_nao_contigua_a_lotes": {
+    "artigo": "Art. 36, III",
+    "aferivel": false,
+    "valor": 2500.0,
+    "texto": "A Area Verde nao deve ficar contigua a lotes, exceto quando a area total a ser doada for inferior a 2.500,00m2, desde que um dos lados faca frente para via publica."
+   },
+   "institucional_testada": {
+    "artigo": "Art. 38, II",
+    "aferivel": true,
+    "valor": 20.0,
+    "texto": "A Area Institucional deve ter testada igual ou superior a 20,00m e profundidade igual ou superior as determinadas para os lotes."
+   },
+   "institucional_divisao": {
+    "artigo": "Art. 38, III e IV",
+    "aferivel": true,
+    "valor": 1000.0,
+    "texto": "A Area Institucional deve estar contida em um so perimetro, divisivel apenas em parcelas de no minimo 1.000,00m2, e nao mais de 3 areas quando a gleba for menor ou igual a 20ha."
+   },
+   "unificacao_gleba_pequena": {
+    "artigo": "Art. 40",
+    "aferivel": true,
+    "valor": 20000.0,
+    "texto": "Em glebas inferiores a 2ha a Prefeitura podera verificar a necessidade de unificar as areas Verde e Institucional, mantida a soma dos percentuais."
+   },
+   "praca_de_reversao": {
+    "artigo": "Art. 41, III",
+    "aferivel": true,
+    "valor": 12.0,
+    "texto": "As vias devem ligar duas outras vias; rua sem saida so e aceita com praca de reversao que permita inscrever um circulo de raio igual ou superior a 12,00m."
+   },
+   "infraestrutura_basica": {
+    "artigo": "Art. 19",
+    "aferivel": false,
+    "texto": "Todo parcelamento deve ter infraestrutura basica: agua, drenagem, iluminacao publica, energia domiciliar, arborizacao, pavimentacao das vias e calcadas, acessibilidade e esgotamento sanitario."
+   },
+   "aprovacao_legislativa": {
+    "artigo": "Art. 31",
+    "aferivel": false,
+    "texto": "Apos parecer da SEMREC, o projeto de loteamento deve ser submetido a aprovacao pelo poder legislativo municipal."
+   }
+  },
+  "condominio": {
+   "artigo": "Art. 44 a 48",
+   "gleba_max_sem_carta_m2": 62500.0,
+   "institucional_pct": {
+    "area_parcelada": 0.0,
+    "ate_62500": 8.0
+   },
+   "verde_pct": {
+    "area_parcelada": 5.0,
+    "ate_62500": 8.0
+   },
+   "mobiliario_max_pct": 10.0,
+   "piso_drenante_max_pct": 30.0,
+   "texto": "Nos condominios as vias sao de dominio privado e os percentuais sao os dos arts. 45 e 46, nao os da Tabela 2. Glebas acima de 62.500m2 dependem de Carta de Viabilidade Tecnica."
+  }
+ },
+ "atme_varia_com_gabarito": false,
+ "usos": {
+  "tabelas": {
+   "6.1": {
+    "titulo": "Zonas Rurais",
+    "zonas": [
+     "ZRMS",
+     "ZRI",
+     "ZRBJJ",
+     "ZRG"
+    ],
+    "pagina": 264
+   },
+   "6.2": {
+    "titulo": "Zonas de Preservação Ambiental",
+    "zonas": [
+     "ZPA SAO PAULO",
+     "ZPA JENIPARANA"
+    ],
+    "pagina": 265
+   },
+   "6.3": {
+    "titulo": "Zonas Urbanas",
+    "zonas": [
+     "ZS",
+     "ZEU",
+     "ZDU - A",
+     "ZDU - BV",
+     "ZDU - P",
+     "ZC"
+    ],
+    "pagina": 266
+   }
+  },
+  "por_zona": {
+   "ZRBJJ": "6.1",
+   "ZRMS": "6.1",
+   "ZRI": "6.1",
+   "ZRG": "6.1",
+   "ZC": "6.3",
+   "ZS": "6.3",
+   "ZDU - A": "6.3",
+   "ZDU - BV": "6.3",
+   "ZDU - P": "6.3",
+   "ZEU": "6.3",
+   "PARQUE DA QUINTA": "6.2",
+   "ZPA SAO PAULO": "6.2",
+   "ZPA JENIPARANA": "6.2"
+  },
+  "fonte": "Anexo III, Tabela 6 (autógrafo p. 264 a 266)"
+ },
+ "cobertura": {
+  "zonas_com_geometria_e_parametro": [
+   "ZC",
+   "ZDU - A",
+   "ZDU - BV",
+   "ZDU - P",
+   "ZEU",
+   "ZRBJJ",
+   "ZRG",
+   "ZRI",
+   "ZRMS",
+   "ZS"
+  ],
+  "zonas_com_geometria_sem_parametro": [
+   "PARQUE DA QUINTA",
+   "ZPA JENIPARANA",
+   "ZPA SAO PAULO"
+  ],
+  "zonas_com_parametro_sem_geometria": []
+ }
+}
