@@ -1,0 +1,9 @@
+SIG/
+leis/
+pipeline/
+tests/
+*.bat
+*.sh
+README.md
+.git
+.gitignore
