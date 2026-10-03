@@ -1,6 +1,8 @@
 {
-  "buildCommand": "echo 'Build complete'",
+  "framework": "static",
+  "buildCommand": "echo 'Static site'",
   "outputDirectory": ".",
+  "public": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
